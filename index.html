@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css" />
+    <title>Home Page</title>
+  </head>
+  <body>
+    <div class="header">
+      <h1>Oz Profil Kartinizi yaradin</h1>
+    </div>
+    <div class="profile-card">
+      <header>
+        <img id="pp" src="" alt="John Doe's profile image" />
+        <h1 id="name"></h1>
+      </header>
+      <section class="bio">
+        <p id="bio"></p>
+      </section>
+      <section class="skills">
+        <h2>Skills</h2>
+        <ul id="skill-list">
+          <!-- <li>Photography</li>
+          <li>Hiking</li>
+          <li>Camping</li>
+          <li>Outdoor Cooking</li>
+          <li>Navigation</li> -->
+        </ul>
+      </section>
+    </div>
+    <div class="action-btns">
+      <div id="info">
+        <label for="">Profil Şəkli Elave Edin</label>
+        <input type="file" id="picture-input" accept="image/*" />
+        <button id="picture-action">Elave Et</button>
+        <br />
+      </div>
+
+      <div id="info">
+        <label for="">Adinizi Elave Edin</label>
+        <input type="text" id="name-input" />
+        <button id="name-action">Elave Et</button>
+        <br />
+      </div>
+
+      <div id="info">
+        <label for="">Bio Elave Edin</label>
+        <input type="text" id="bio-input" />
+        <button id="bio-action">Elave Et</button>
+        <br />
+      </div>
+
+      <div id="info">
+        <label for="">Skill Elave Edin</label>
+        <input type="text" name="" id="skill-input" />
+        <button id="skill-action">Elave et</button>
+      </div>
+    </div>
+    <script src="./app.js"></script>
+  </body>
+</html>
